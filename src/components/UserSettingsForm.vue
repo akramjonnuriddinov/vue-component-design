@@ -9,7 +9,7 @@
       <span class="form-label mb-2">Newsletter</span>
       <div class="flex justify-between items-center">
         <p class="mr-4">Send you occasional news and updates.</p>
-        <toggle-input v-model="receiveNewsletter"></toggle-input>
+        <toggle-input v-model="receiveNewsletter" :value="email"></toggle-input>
       </div>
     </div>
     <div class="text-right">
